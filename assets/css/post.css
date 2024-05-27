@@ -1,0 +1,70 @@
+@import './main.css';
+
+
+.postContainer{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 20px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.authorInfo , .postDetail ,.socialMedia{
+    background-color: #eee;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+.title{
+    font-style: italic;
+    font-weight: bold;
+    color: #566e7f;
+}
+.socialMedia{
+    flex-direction: row;
+}
+.img-name img{
+    width: 50px;
+    border-radius: 50%;
+}
+.img-name{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+svg{
+    width: 25px;
+}
+.right img{
+    border-radius: 8px;
+}
+.left button{
+    width: fit-content;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #566e7f;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.left button a{
+    color: #eee;
+}
+.left ul li{
+    list-style: circle;
+    margin-left: 20px;
+}
+.left ol li{
+    list-style: decimal;
+    margin-left: 20px;
+}
+
+.left h2{
+    font-weight: bold;
+    
+}
