@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-size: 27px;
+    background-color: #eee;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 18px;
+}
+
+.navbar ul a {
+    color: black;
+}
+@media (max-width:470px){
+    .navbar {
+        font-size: 16px;
+    }
+}
